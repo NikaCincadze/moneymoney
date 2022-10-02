@@ -1,0 +1,393 @@
+h3{
+  font-family: 'Major Mono Display', monospace;
+
+
+    font-size: 28px;
+
+
+}
+
+.container{
+    background: ;
+    background: ;
+    border-radius: 13px;
+   
+}
+
+h1{
+  font-family: 'Syne Mono', monospace;
+
+    font-size: 36px;
+}
+p{
+    color: black;
+}
+.nav-link{
+    
+
+   
+    
+
+
+
+
+
+    
+
+}
+
+.display-4.my-4.py-3.text-center.d-none.d-lg-block{
+    font-family: 'Anton', sans-serif;
+}
+
+.img-fluiddd{
+    margin-left: 38px;
+    border-radius: 20px;
+}
+
+
+.img-fluidd{
+    margin-left: 150px;
+    margin-bottom: -60px;
+}
+
+body{
+    background-color:  #e8e8e8;
+    font-family: 'Open Sans', sans-serif;
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#MainNavbar {
+    font-size: 1.5rem;
+    background: #e8e8e8;
+}
+
+#MainNavbar .nav-link{
+    color: grey;
+}
+body{
+    background:url();
+}
+.col.mb-4{
+margin-top: 40px;
+
+
+
+}
+.card.mb-3{
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+
+
+}
+.card-body{
+   
+}
+.card.p-3{
+     background:url(images/graffit.jpg) ;
+   
+    
+}
+.card-text{
+    font-family: 'Modak', cursive;
+
+}
+.FindYourFriend{
+    color: rgb(195,99,34);
+    font-family: 'Pacifico', cursive;
+    margin-top: 80px;
+    margin-right: -50px;
+    
+    font-size: 60px;
+}
+.list-group{
+
+    margin-left: 200px;
+    margin-top: 130px;
+    color: black;
+    
+}
+.card{
+    
+}
+.card-img{
+   border: 3px solid  #e8e8e8;
+   border-radius: 15px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: violet ;
+    border-radius: 5px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #e8e8e8;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container1 {
+    position: relative;
+    width: 50%;
+   
+  }
+  
+  .image{
+      border-radius: 15px;
+  }
+  .card-title{
+      color:  
+  }
+
+  .Carusel{
+      size: 200px;
+  }
+  * {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.carousel-inner{
+  background:url() ;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create a column layout with Flexbox */
+  .row {
+    display: flex;
+  }
+  
+  /* Left column (menu) */
+  .left {
+    flex: 35%;
+    padding: 15px 0;
+    border-bottom: 2px solid #e8e8e8;
+    
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+  /* Right column (page content) */
+  .right {
+    flex: 65%;
+    padding: 15px;
+  }
+  
+  /* Style the search box */
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+
+  .carousel-inner{
+      border-bottom:2px solid #ECECEC ;
+  }
+
+ .col-sm{
+     margin-right: 200px;
+ }
+
+ .navbar.navbar-expand-lg.navbar-light{
+     background-color: white;
+ }
+ .search{
+     border-radius: 20px;
+     margin-bottom: -100px;
+ }
+
+ .filterDiv {
+  float: left;
+  color: black;
+  
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  
+  cursor: pointer;
+}
+
+.btn:hover {
+}
+
+.btn.active {
+  background-color: ;
+}
+
+* {box-sizing: border-box;}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+.h2{
+  font-family: 'Nerko One', cursive;
+  float: left;
+
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}

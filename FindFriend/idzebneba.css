@@ -1,0 +1,199 @@
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+
+
+}
+
+.container{
+    background: rgb(195,99,34);
+    background: linear-gradient(0deg, rgba(195,99,34,1) 0%, rgba(253,45,150,1) 100%);
+    border-radius: 13px;
+   
+}
+
+h1{
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 50px;
+}
+p{
+    color: black;
+}
+.nav-link{
+    font-family: 'Flavors', cursive;
+
+    font-size: 35px;
+
+
+
+
+
+    
+
+}
+
+.display-4.my-4.py-3.text-center.d-none.d-lg-block{
+    font-family: 'Anton', sans-serif;
+}
+
+.img-fluiddd{
+    margin-left: 38px;
+    border-radius: 20px;
+}
+
+
+.img-fluidd{
+    margin-left: 150px;
+    margin-bottom: -60px;
+}
+
+body{
+    background-color:  white;
+    font-family: 'Open Sans', sans-serif;
+    color: #e8e8e8;
+    background:url(images/graffit.jpg) ;
+}
+#MainNavbar {
+    font-size: 1.5rem;
+    background:grey ;
+}
+
+#MainNavbar .nav-link{
+    color: #e8e8e8;
+}
+body{
+    background:url();
+}
+.col.mb-4{
+margin-top: 40px;
+
+
+
+}
+.card.mb-3{
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+
+
+}
+.card-body{
+   
+}
+.card.p-3{
+     background:url(images/graffit.jpg) ;
+   
+    
+}
+.card-text{
+    font-family: 'Modak', cursive;
+
+}
+.FindYourFriend{
+    color: rgb(195,99,34);
+    font-family: 'Pacifico', cursive;
+    margin-top: 80px;
+    margin-right: -50px;
+    
+    font-size: 60px;
+}
+.list-group{
+
+    margin-left: 200px;
+    margin-top: 130px;
+    color: black;
+    
+}
+.card{
+    
+}
+.card-img{
+   border: 3px solid  white;
+   border-radius: 15px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: violet ;
+    border-radius: 5px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container1 {
+    position: relative;
+    width: 50%;
+   
+  }
+  .h2{
+    
+    
+  }
+  .image{
+      border-radius: 15px;
+  }
+  .card-title{
+      color:  rgba(195,99,34,1) 0%, rgba(253,45,150,1) 100%;
+  }
+  .row{
+      
+  }
+  .Carusel{
+      size: 200px;
+  }
+  * {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.carousel-inner{
+  background:url() ;
+}

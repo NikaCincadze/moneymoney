@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <body>
+        
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css"> 
+    <title>FindFriends</title>
+   <!-- As a link -->
+   <nav id="MainNavbar" class="navbar navbar-dark navbar-expand-md py-0 px-4 fixed-top">
+    <a href="#" class="navbar-brand">
+        <img src="Logo.png" loading="lazy" alt="">
+        
+    </a>
+
+
+
+
+
+    
+    
+        
+   
+    <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link"><h5>Tbilisi</h5><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link"><h5>(995)599704415</h5></a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link"></a>
+            </li>
+            <li class="nav-item">
+              
+
+                
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
+<br>
+<br>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+          
+        <li class="nav-item ">
+          <a class="nav-link" href="#"><h1>Home</h1> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h1>about</h1></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h1>contact</h1></a>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline" action="/action_page.php">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Enter email" name="email">
+            <label for="pwd"></label>
+            <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+            <label>
+              <input type="checkbox" name="remember"> Remember me
+            </label>
+            <a class="nav-link" href="Login.html"><h1>login</h1></a>
+          </form>
+          
+          
+
+       
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+       <div class="row">
+    <div class="left" style="background-color:white;">
+      <h2></h2>
+      <input class="search" type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+     
+    </div>
+    
+    
+      
+      
+    </div>
+  </div>
+
+
+  </div>
+    </div>
+  
+ 
+  <h2></h2>
+  <p></p>
+  
+ <br>
+
+
+  
+
+
+
+
+
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/9897068f-498c-4a52-926e-0df919c44382.png" class="card-img" alt="...">
+  
+
+
+  <script>
+  function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myMenu");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+  
+
+<br>
+<br>
+
+
+
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"></button>
+    <button class="btn" onclick="filterSelection('cars')"><h3> hoodie</h3></button>
+    <button class="btn" onclick="filterSelection('animals')"><h3>t-shirt</h3></button>
+    <button class="btn" onclick="filterSelection('fruits')"><h3>hat</h3></button>
+    <button class="btn" onclick="filterSelection('colors')"><h3></h3</button>
+  </div>
+ 
+
+  
+  <div class="container">
+    <div class="filterDiv cars"><div class="card" style="width: 18rem;">
+      <img   src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    
+    <div class="filterDiv cars"><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv cars"><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv cars"><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv cars"><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    
+    <div class="filterDiv colors"></div>
+    <div class="filterDiv cars "><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+
+    <div class="filterDiv cars "><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+
+    <div class="filterDiv cars "><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+
+    <div class="filterDiv cars "><div class="card" style="width: 18rem;">
+      <img src="https://cdn.shopify.com/s/files/1/0055/1242/products/IND5000P-GHR_2048x.jpg?v=1559238178" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+
+
+
+
+
+
+      
+    <div class="filterDiv colors"></div>
+    <div class="filterDiv animals"><div class="card" style="width: 18rem;">
+      <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+
+</div>
+    <div class="filterDiv animals"><div class="card" style="width: 18rem;">
+      <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+
+</div>
+
+<div class="filterDiv animals"><div class="card" style="width: 18rem;">
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+</div>
+<div class="filterDiv animals"><div class="card" style="width: 18rem;">
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+</div>
+<div class="filterDiv animals"><div class="card" style="width: 18rem;">
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+</div>
+<div class="filterDiv animals"><div class="card" style="width: 18rem;">
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+</div>
+<div class="filterDiv animals"><div class="card" style="width: 18rem;">
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+</div>
+<div class="filterDiv animals"><div class="card" style="width: 18rem;">
+  <img src="file:///C:/Users/nikac/OneDrive/Desktop/hmgoepprod.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"></p>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits "><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    
+
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+    <div class="filterDiv fruits"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div></div>
+
+
+
+    <div class="filterDiv animals"><div class="card" style="width: 18rem;">
+      <img src="https://www.nixon.com/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dw9a6d5e7b/products/C2997-000-view1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+
+</div>
+  </div>
+  
+
+
+
+
+  <script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+  
+
+
+  
+
+
+              
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    
+  </body>
+</html>
